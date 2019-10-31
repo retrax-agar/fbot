@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         FBOT (Vanilla Version)
+// @name         FBOTS (Vanilla Version)
 // @namespace    Free and Real agario bots
 // @version      1.0.10
 // @description  Free and Real open source agario bots
@@ -382,7 +382,7 @@ function setGUI() {
         <h5 id="botsAuthor">
             <a href="http://200bots.ga" target="_blank">200bots.ga, </a><a href="https://discord.gg/MpzBaMa" target="_blank">Free Agar.io Bots</a>
         </h5>
-<button id="subbutton">Subscribe to FreestyleZUIZUI</button>
+<button id="subbutton">Subscribe to Retrax</button>
 </center>
 `
  document.getElementById('mcbanners').innerHTML = `
@@ -397,7 +397,7 @@ function setGUI() {
             <a>Free Agar.io Bots</a>
         </h3>
         <h5 id="botsAuthor">
-            Developed by <a href="https://www.youtube.com/channel/UCZo9WmnFPWw38q65Llu5Lug" target="_blank">Nel, </a><a href="https://github.com/xN3BULA" target="_blank">xN3BULA, </a><a href="http://legendmod.ml/" target="_blank">Jimboy3100</a>
+            Developed by <a href="https://www.youtube.com/channel/UCx2bnvDKKRSnH1VDzkRKBwQ" target="_blank">Nel, </a><a href="https://github.com/xN3BULA" target="_blank">xN3BULA, </a><a href="http://legendmod.ml/" target="_blank">Jimboy3100</a>
         </h5>
         <span id="statusText">Status: <b id="userStatus">Disconnected</b></span>
         <br>
@@ -664,10 +664,10 @@ function setGUIEvents() {
         if (!window.connection.ws || window.connection.ws.readyState !== WebSocket.OPEN) window.connection.connect()
     })
         document.getElementById('rbutton').addEventListener('click', () => {
-            window.open("http://px.200agar.net/");
+            window.open("https://docs.google.com/forms/d/e/1FAIpQLSdfhh9mnFTi1-YFj2Kzjmx_h4WOu9XQcIBqy0_XGxoL9XnMoQ/viewform");
     })
             document.getElementById('subbutton').addEventListener('click', () => {
-            window.open("https://www.youtube.com/channel/UCWwgb3BRnpWk1SG1aopcBtw", '_self');
+            window.open("https://www.youtube.com/channel/UCx2bnvDKKRSnH1VDzkRKBwQ", '_self');
     })
     document.getElementById('startBots').addEventListener('click', () => {
         if (window.game.url && window.game.protocolVersion && window.game.clientVersion && !window.user.startedBots) {
