@@ -26,14 +26,14 @@ into a new Tampermonkey userscript and save it
 11. Always make sure you wait the 30 seconds for process to close or you are gonna get captcha on your ip
 
 ## REPL.IT
-1• Go to https://repl.it/ and create an account.
-2• Go to https://repl.it/@retrax and click one of the repos. Then click the fork button.
-3• Click the start button on your new repo and refresh the page.
-4• The URL on the top left bot is your websocket URL. Copy it and replace https with wss. It s n hould look something like this: wss://agario-bots-14.turbocheetah.repl.co
-5• Install this userscript and enter your websocket URL in the last input box: https://github.com/retrax-agar/fbot/raw/master/fbot.vanilla.user.js
-6• Join a lobby and click connect then start.
-7• Always make sure you wait 30 seconds before hitting stop in repl.
-8• If you ever get captcha just repeat these steps and get a new URL
+1. Go to https://repl.it/ and create an account.
+2. Go to https://repl.it/@retrax and click one of the repos. Then click the fork button.
+3. Click the start button on your new repo and refresh the page.
+4. The URL on the top left bot is your websocket URL. Copy it and replace https with wss. It s n hould look something like this: wss://agario-bots-14.turbocheetah.repl.co
+5. Install this userscript and enter your websocket URL in the last input box: https://github.com/retrax-agar/fbot/raw/master/fbot.vanilla.user.js
+6. Join a lobby and click connect then start.
+7. Always make sure you wait 30 seconds before hitting stop in repl.
+8. If you ever get captcha just repeat these steps and get a new URL
 
 
 ## Captcha (only for Windows)
